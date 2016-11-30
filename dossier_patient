@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Dossier patient</title>
+    </head>
+    
+    <body>
+        <div class="div1">
+            <h1>Dossier Patient</h1>
+            <p class="options">Modifier/imprimer/archiver</p>
+        </div>
+        
+        <div>
+            <img src="./image/zozor_classe.png" alt="Logo de Zozor" />
+            <h2>Vincent Pasteur</h2>
+            <p>Date création dossier : ...</p>
+        </div>
+        
+        <div>
+            <table>
+                <tr>
+                    <th>Civilité</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Nom</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Prénom</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Date de naissance</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Téléphone</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Adresse</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Ville</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Code postal</th>
+                    <td>..à afficher..</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <table>
+                <caption>Bilan de 1ères intentions en URGENCES</caption>
+                <tr>
+                    <td>Scan cérébral</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+                <tr>
+                    <td>AngioScan</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+                <tr>
+                    <td>Bilan biologique</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+            </table>
+            <table>
+                <caption>Bilan de 2ndes intentions</caption>
+                <tr>
+                    <th></th>
+                    <th>planifié</th>
+                    <th>réalisé</th>
+                </tr>
+                <tr>
+                    <td>IRM</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+                <tr>
+                    <td>Bilan cardiaque ETT</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+                <tr>
+                    <td>Consultation neurologue</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Récapitulatif envoyé au médecin traitant</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+                <tr>
+                    <td>Récapitulatif envoyé à l'urgentiste</td>
+                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <h2>Médecin traitant</h2>
+            <table>
+                <tr>
+                    <th>Civilité</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Nom</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Prénom</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Téléphone</th>
+                    <td>..à afficher..</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <h2>Urgentiste</h2>
+            <table>
+                <tr>
+                    <th>Civilité</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Nom</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Prénom</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>..à afficher..</td>
+                </tr>
+                <tr>
+                    <th>Téléphone</th>
+                    <td>..à afficher..</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div>
+            <img src="./image/button-blue.png" alt="Prise de RDV" />
+        </div>
+    </body>
+</html>
