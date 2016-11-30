@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link href="meng1.css"type="text/css"rel="stylesheet"/>
+    </head>
+    
+    <body>
+        <div class="div-relative">
+            <div class="photo1">
+                <a href="semaine.html">
+                    <img src="patient.png" alt="liste patients"title="ouvrir"/>
+                </a>
+            </div>
+        </div>
+        
+        <div class="div-a">
+            <div class="div1">
+                <h1>Prise de Rendez-vous</h1>
+                <h4 class="Modif">Modifier</h4>
+                <link rel="icon" type="image/png" href="favicon.png" />
+                <h4 class="Supprimer">Supprimer</h4>
+            </div>
+            
+            <div class="div2">
+                <table>
+                    <tr>
+                        <th>Ville</th>
+                        <td><input type="checkbox" name="choix1" value="1"/>Lyon</td>
+                        <td><input type="checkbox" name="choix2" value="2"/>Vienne</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="div3">
+                <table>
+                    <tr>
+                      <th>Examens</th>
+                      <td><input type="checkbox" name="choix1" value="1"/>IRM</td>
+                      <td><input type="checkbox" name="choix2" value="2"/> Bilan Cardiaque</td>
+                      <td><input type="checkbox" name="choix3" value="3"/> RDV neurologue</td>
+                    </tr>
+                </table>      
+            </div>
+            
+            <div class="div4">
+                <h3 class="RésultatsRercherche">Résultats Recherche</h3>
+                <CENTER>
+                    <TABLE width=60% border=1>
+                        <tr><th>Centres</th><th>Examens</th><th>Adresse</th><th>Contact</th><th>Jour</th><th>Horaire</th><th>Planifié</th></tr>
+                        <tr><td>Hospitalisation de jour</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    </TABLE></CENTER>
+            </div>
+            
+            <h2 class="Recap">Récapitulatif</h2>
+                <blockquote>
+                    <ol>
+                        <li>Hospitalisation de Jour prévue à l'adresse <input NAME="rep1" TYPE=text SIZE=12 MAXLENGth=12/> au <input NAME="rep1" TYPE=text SIZE=12 MAXLENGth=12/> le <input NAME="rep1" TYPE=text SIZE=12 MAXLENGth=12/></li>
+                    </ol>
+                </blockquote>
+                    <div ALIGN=right>
+                        <input TYPE=button VALUE="Envoyer récapitulatif" ONCLICK="envoyer()"/>
+                    </div>
+        </div>
+    </body>
+</html>
