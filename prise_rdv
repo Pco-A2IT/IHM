@@ -4,20 +4,19 @@
     </head>
     
     <body>
-        <div class="div-relative">
-            <div class="photo1">
-                <a href="semaine.html">
-                    <img src="patient.png" alt="liste patients"title="ouvrir"/>
-                </a>
+        <aside>
+            <div class="div-relative">
+                <div class="photo1">
+                    <a href="semaine.html">
+                        <img src="patient.png" alt="liste patients"title="ouvrir"/>
+                    </a>
+                </div>
             </div>
-        </div>
+        </aside>
         
         <div class="div-a">
             <div class="div1">
                 <h1>Prise de Rendez-vous</h1>
-                <h4 class="Modif">Modifier</h4>
-                <link rel="icon" type="image/png" href="favicon.png" />
-                <h4 class="Supprimer">Supprimer</h4>
             </div>
             
             <div class="div2">
@@ -57,7 +56,7 @@
                     </ol>
                 </blockquote>
                     <div ALIGN=right>
-                        <input TYPE=button VALUE="Envoyer récapitulatif" ONCLICK="envoyer()"/>
+                        <input TYPE=button VALUE="Envoyer récapitulatif" ONCLICK="envoyerRecap()"/>
                     </div>
         </div>
     </body>
