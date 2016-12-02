@@ -1,0 +1,75 @@
+<html>
+<head>
+   <link href="CSS.css"type="text/css"rel="stylesheet"/>    <!-- BOOTSTRAP -->
+</head>
+<body>
+    <div class="gris">
+        <!--<div class="photo1" style=" height:550; padding-top:10px;boder-color:red; border-style:solid;">-->
+            <div  style=" height:620px; width:100px; padding-top:20px;">
+            <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px;  margin-left:auto; margin-right:auto; border-radius: 5px;">
+            <img src="testIcone.png" style="width:100%; height:100%;"/>
+            </div>
+            
+            <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px; margin-left:auto; margin-right:auto; border-radius: 5px;">
+
+            </div>
+            
+            <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px; margin-left:auto; margin-right:auto; border-radius: 5px;">
+            
+            </div>
+            
+        </div>
+    </div>
+    <div class="titre";   style="border-radius: 5px;">
+        <h1 class="titreGauche">Prise de Rendez-vous</h1>
+        <h4 class="titreMilieu"><input TYPE=button VALUE="Modifier" ONCLICK="Modifier()"/> </h4>
+        <h4 class="titreDroite"><input TYPE=button VALUE="Supprimer" ONCLICK="Supprimer()"/> </h4>
+    </div>
+    <div class="blanc">
+          <div class="section1">
+              <div class="div1">
+                  <table>
+                      <tr>
+                          <th class="champ">Ville</th>
+                          <td><input type="checkbox" name="choix1" value="1"/> Lyon</td>
+                          <td><input type="checkbox" name="choix2" value="2"/> Vienne</td>
+                      </tr>
+                  </table>
+              </div>
+
+              <div class="div2">
+                  <table>
+                      <tr>
+                          <th class="champ">Examens</th>
+                          <td><input type="checkbox" name="choix1" value="1"/> IRM</td>
+                          <td><input type="checkbox" name="choix2" value="2"/> Bilan Cardiaque</td>
+                          <td><input type="checkbox" name="choix3" value="3"/> RDV neurologue
+                          </td></tr>
+                  </table>      
+              </div>
+              <div class="div3">
+                  <h4>Résultats Recherche</h4>
+                  <table width="100%" >
+                      <tr><th class="case">Centres</th><th>Examens</th><th>Adresse</th><th>Contact</th><th>Jour</th><th>Horaire</th><th>Planifié</th></tr>
+                      <tr><td>Hospitalisation de jour</td></tr>
+                      </table>
+              </div>
+         </div>
+         <div class="section2">
+             <h3 class="Recap">Récapitulatif</h3>
+             <BLOCKQUOTE><OL>
+                  <li>
+                  Hospitalisation de Jour prévue à l'adresse
+                  <input NAME="rep1" TYPE=text SIZE=12 MAXLENGTH=12/>
+                  au <input NAME="rep1" TYPE=text SIZE=12 MAXLENGTH=12/>le <input NAME="rep1" TYPE=text SIZE=12 MAXLENGTH=12/>
+                  </li>
+             </OL></BLOCKQUOTE>
+             <br>
+             <div ALIGN=right>
+                    <input TYPE=button VALUE="Envoyer récapitulatif" ONCLICK="envoyer()"/> 
+             </div>
+         </div>
+    </div>
+
+</body>
+</html>
