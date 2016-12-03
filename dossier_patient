@@ -2,164 +2,190 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="CSS.css" />
         <title>Dossier patient</title>
     </head>
     
     <body>
-        <div class="div1">
-            <h1>Dossier Patient</h1>
-            <p class="options">Modifier/imprimer/archiver</p>
+        
+        <!-- menu de navigation -->
+        <div class="gris">
+            <div  style=" height:620px; width:100px; padding-top:20px;">
+                
+                <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px;  margin-left:auto; margin-right:auto; border-radius: 5px;">
+                <img src="testIcone.png" style="width:100%; height:100%;"/>
+                </div>
+
+                <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px; margin-left:auto; margin-right:auto; border-radius: 5px;"></div>
+                
+                <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px; margin-left:auto; margin-right:auto; border-radius: 5px;"></div>
+            
+            </div>
         </div>
         
-        <div>
-            <img src="./image/zozor_classe.png" alt="Logo de Zozor" />
-            <h2>Vincent Pasteur</h2>
-            <p>Date création dossier : ...</p>
+        <!-- titre général de la fenêtre -->
+        <div class="titre";   style="border-radius: 5px;">
+            <h1 class="titreGauche">Dossier patient</h1>
+            <h4 class="titreMilieu"><input TYPE=button VALUE="Modifier" ONCLICK="Modifier()"/> </h4>
+            <h4 class="titreDroite"><input TYPE=button VALUE="Supprimer" ONCLICK="Supprimer()"/> </h4>
         </div>
         
-        <div>
-            <table>
-                <tr>
-                    <th>Civilité</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Nom</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Prénom</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Date de naissance</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Téléphone</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Adresse</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Ville</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Code postal</th>
-                    <td>..à afficher..</td>
-                </tr>
-            </table>
-        </div>
-        
-        <div>
-            <table>
-                <caption>Bilan de 1ères intentions en URGENCES</caption>
-                <tr>
-                    <td>Scan cérébral</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-                <tr>
-                    <td>AngioScan</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-                <tr>
-                    <td>Bilan biologique</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-            </table>
-            <table>
-                <caption>Bilan de 2ndes intentions</caption>
-                <tr>
-                    <th></th>
-                    <th>planifié</th>
-                    <th>réalisé</th>
-                </tr>
-                <tr>
-                    <td>IRM</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-                <tr>
-                    <td>Bilan cardiaque ETT</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-                <tr>
-                    <td>Consultation neurologue</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <td>Récapitulatif envoyé au médecin traitant</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-                <tr>
-                    <td>Récapitulatif envoyé à l'urgentiste</td>
-                    <td><INPUT type="checkbox" name="choix1" value="1"/></td>
-                </tr>
-            </table>
-        </div>
-        
-        <div>
-            <h2>Médecin traitant</h2>
-            <table>
-                <tr>
-                    <th>Civilité</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Nom</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Prénom</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Email</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Téléphone</th>
-                    <td>..à afficher..</td>
-                </tr>
-            </table>
-        </div>
-        
-        <div>
-            <h2>Urgentiste</h2>
-            <table>
-                <tr>
-                    <th>Civilité</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Nom</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Prénom</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Email</th>
-                    <td>..à afficher..</td>
-                </tr>
-                <tr>
-                    <th>Téléphone</th>
-                    <td>..à afficher..</td>
-                </tr>
-            </table>
-        </div>
-        
-        <div>
-            <img src="./image/button-blue.png" alt="Prise de RDV" />
+        <!-- partie spécifique à cette fenêtre -->
+        <div class="blanc">
+            <div id="conteneur">
+                <img src="./image/zozor_classe.png" alt="Logo de Zozor" />
+                <h2>Vincent Pasteur</h2>
+                <p>Date création dossier : ...</p>
+            </div>
+            
+            <div id="conteneur">
+                <div>
+                    <table>
+                        <tr>
+                            <th>Civilité</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                        <tr>
+                            <th>Nom</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                        <tr>
+                            <th>Prénom</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                        <tr>
+                            <th>Date de naissance</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                        <tr>
+                            <th>Téléphone</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                        <tr>
+                            <th>Adresse</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                        <tr>
+                            <th>Ville</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                        <tr>
+                            <th>Code postal</th>
+                            <td>..à afficher..</td>
+                        </tr>
+                    </table>
+                </div>
+
+            
+                <div>
+                    <table>
+                        <caption>Bilan de 1ères intentions en URGENCES</caption>
+                        <tr>
+                            <td>Scan cérébral</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                        <tr>
+                            <td>AngioScan</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                        <tr>
+                            <td>Bilan biologique</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <caption>Bilan de 2ndes intentions</caption>
+                        <tr>
+                            <th></th>
+                            <th>planifié</th>
+                            <th>réalisé</th>
+                        </tr>
+                        <tr>
+                            <td>IRM</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                        <tr>
+                            <td>Bilan cardiaque ETT</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                        <tr>
+                            <td>Consultation neurologue</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Récapitulatif envoyé au médecin traitant</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                        <tr>
+                            <td>Récapitulatif envoyé à l'urgentiste</td>
+                            <td><INPUT type="checkbox" name="choix1" value="1"/></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="traitant&urgentiste">
+                    <div>
+                        <h2>Médecin traitant</h2>
+                        <table>
+                            <tr>
+                                <th>Civilité</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Nom</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Prénom</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Téléphone</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div>
+                        <h2>Urgentiste</h2>
+                        <table>
+                            <tr>
+                                <th>Civilité</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Nom</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Prénom</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                            <tr>
+                                <th>Téléphone</th>
+                                <td>..à afficher..</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <a href="#" class="valider">Valider</a>
+            </div>
         </div>
     </body>
 </html>
