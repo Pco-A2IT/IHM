@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="CSS.css" />
+        <link rel="stylesheet" href="CSS_dossierPatient.css" />
         <title>Dossier patient</title>
     </head>
     
@@ -26,8 +26,8 @@
         <!-- titre général de la fenêtre -->
         <div class="titre";   style="border-radius: 5px;">
             <h1 class="titreGauche">Dossier patient</h1>
-            <h4 class="titreMilieu"><input TYPE=button VALUE="Modifier" ONCLICK="Modifier()"/> </h4>
-            <h4 class="titreDroite"><input TYPE=button VALUE="Supprimer" ONCLICK="Supprimer()"/> </h4>
+            <h4 class="titreMilieu"><input TYPE=button ID="Modifier" VALUE="Modifier" ONCLICK="Modifier()"/> </h4>
+            <h4 class="titreDroite"><input TYPE=button ID="Supprimer" VALUE="Supprimer" ONCLICK="Supprimer()"/> </h4>
         </div>
         
         <!-- partie spécifique à cette fenêtre -->
@@ -184,8 +184,9 @@
             </div>
             
             <div>
-                <a href="#" class="valider">Valider</a>
+                <button id="valider"> Valider</button>
             </div>
         </div>
+     <script src="dossier_patient_consultation.js"></script>
     </body>
 </html>
