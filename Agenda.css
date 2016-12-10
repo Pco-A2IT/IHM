@@ -1,0 +1,173 @@
+body{
+  font-family:Calibri;
+}
+
+
+.carreGris:hover{
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+
+.gris{width: 100%;
+             height: 100%;
+             margin:0;
+             background-color:#696969 ;
+             border:0;
+             position:relative}
+
+
+.blancA{ width: 77%;
+       height: 550px;
+       left:100px;
+       bottom: 40px;
+       right: 100px;
+       background-color: #ffffff ;
+       border: 0px solid #ffffff ;
+       position: absolute;
+       z-index: 1000}
+
+.section1{
+  left:80px;
+  top:50px;
+  position:absolute;
+}
+
+.titreDroiteA{
+  right:60px;
+  position:absolute;
+  top: 20px;
+  color:darkblue;
+    
+}
+
+.titreGaucheA{
+  left:60px;
+  top:15px;
+  position:absolute;
+    
+}
+
+.titreMilieuA{
+  right:200px;
+  position:absolute;
+  top:20px;
+  color:darkblue;
+    
+}
+
+.titreA{
+  width: 77%;
+  height:60px;
+  background:#191970;
+  color:aliceblue;
+  font-family:Arial,Verdana;
+  top:20px;
+  left:100px;
+  position: absolute;
+  z-index: 1200;
+}
+
+.calendaire{
+    width:auto; 
+    height:auto;
+    background-color: aliceblue;
+    left:85.6%;
+    right:1%;
+    bottom: 6%;
+    position: absolute;
+}
+
+.table{
+     width:80%;
+     height: auto;
+     top:28%;
+     left:11%;
+     position: absolute;
+}
+
+#table1 {  
+  
+     border-collapse: collapse;  
+  
+     font-family: Futura, Arial, sans-serif;  
+  
+}  
+  
+#table1 caption {  
+  
+     font-size: larger;  
+  
+     margin: 1em auto;  
+  
+}  
+  
+  
+#table1 th {  
+     height:30px;
+     background: #555 nonerepeat scroll 0 0;  
+     border: 0px solid #777;
+     color: #fff;  
+  }  
+  
+#table1 td {
+     text-align: center;
+     width:auto;
+     height:50px;
+     border: 0px solid #777;
+  }  
+  
+#table1 tbody tr:nth-child(odd) {  
+     background: #777;  
+  }  
+  
+#table1 th:first-child {  
+     border-radius: 9px 0 0 0;  
+  }  
+  
+#table1 th:last-child {  
+  
+     border-radius: 0 9px 0 0;  
+  }  
+  
+#table1 tr:last-child td:first-child {  
+  
+     border-radius: 0 0 0 9px;  
+  }  
+  
+#table1 tr:last-child td:last-child {  
+  
+     border-radius: 0 0 9px 0;  
+  }  
+
+
+.nav ul{
+     width:980px;
+     margin:0px auto;
+     height:38px;
+     padding:0;
+        }
+.nav ul li{
+     float:left;
+        }
+.nav ul li a{
+     width:80px;
+     height:28px;
+     line-height:28px;
+     background:darkblue;
+     color:#FFF;
+     margin:5px 10px;
+     font-size:12px;
+     display:block;
+     text-align:center;
+     text-decoration:none;
+        }
+.nav ul li a:hover{
+     width:78px;
+     height:26px;
+     line-height:28px;
+     border:1px solid darkblue;
+     color:darkblue;
+     background:#FFF;
+        } 
