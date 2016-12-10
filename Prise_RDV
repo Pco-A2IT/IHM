@@ -1,0 +1,101 @@
+<html>
+<head>
+   <link href="CSS.css"type="text/css"rel="stylesheet"/>    <!-- BOOTSTRAP -->
+</head>
+<body>
+    <div class="gris">
+            <div  style=" height:620px; width:100px; padding-top:20px;">
+            <div id="menu1" class="carreGris">
+            <img src="Menu.PNG" style="width:75%; height:65%; margin-left:auto; margin-right:auto; display:block;"/>
+            <h4 style="display:inline; margin-left:13px;">Menu</h4>
+            </div>
+            
+                            
+             <div id="menu5" class="carreGris"; style="background-color:#1270B3">
+                <img src="calendrier.png" style="width:90%; height:85%; margin-left:auto; margin-right:auto; display:block"/>
+                </div>
+                
+            
+            <div id="menu3" class="carreGris">
+                <h4 style="padding-left:10px; margin-top:0; margin-bottom: 0;">Liste Centres</h4>
+                <img src="hopital.PNG" style="width:55%; height:45%; margin-left:auto; margin-right:auto; display:block;"/>
+
+            </div>
+                
+            <div id="menu2" class="carreGris">
+            
+
+                <!--<h4 style="margin-left:10px; display:inline;">Liste</h4><h4 style="margin-left:10px; display:inline;"> patients</h4>-->
+
+                <h4 style="padding-left:10px; margin-top:0; margin-bottom: 3px;">Liste patients</h4>    
+                <img src="icone_bonhomme.png" style="width:50%; height:40%; margin-left:auto; margin-right:auto; display:block;"/>
+            </div>
+                           
+                
+            <div id="menu4" class="carreGris">
+                 <img src="ajouter.png" style="width:45%; height:45%; margin-left:auto; margin-right:auto; display:block;"/>
+                <h4 style="padding-left:10px; margin-top:0; margin-bottom: 0;">Dossier Patient</h4>
+            </div>
+                
+            <div class="extra" style="border-radius: 5px;">
+                <img src="medecin.png" style="width:55%; height:60%; margin-left:auto; margin-right:auto; margin-top:10; display:block;"/>
+                <h4 style="padding-left:10px; margin-top:0; margin-bottom: 0;">Retour au dossier patient</h4></div>
+            </div>
+            
+    
+    <div class="titre";   style="border-radius: 5px;">
+        <h1 class="titreGauche">Prise de Rendez-vous</h1>
+        <div class="myButton">
+            <a href="#" class="myButton1">Modifier</a>
+            <a href="#" class="myButton2">Supprimer</a>
+        </div>
+    </div>
+    <div class="blanc";   style="border-radius: 5px;">
+          <div class="section1">
+              <div class="div1">
+                  <table>
+                      <tr>
+                          <th class="champ">Ville</th>
+                          <td><input type="checkbox" name="choix1" value="1"/> Lyon</td>
+                          <td><input type="checkbox" name="choix2" value="2"/> Vienne</td>
+                      </tr>
+                  </table>
+              </div>
+
+              <div class="div2">
+                  <table>
+                      <tr>
+                          <th class="champ">Examens</th>
+                          <td><input type="checkbox" name="choix1" value="1"/> IRM</td>
+                          <td><input type="checkbox" name="choix2" value="2"/> Bilan Cardiaque</td>
+                          <td><input type="checkbox" name="choix3" value="3"/> RDV neurologue
+                          </td></tr>
+                  </table>      
+              </div>
+              <div class="div3">
+                  <h4>Résultats Recherche</h4>
+                  <table width="100%" style="color:#1270B3; background-color:aliceblue";>
+                      <tr><th>Centres</th><th>Examens</th><th>Adresse</th><th>Contact</th><th>Jour</th><th>Horaire</th><th>Planifié</th></tr>
+                      <tr><td>Hospitalisation de jour</td></tr>
+                      </table>
+              </div>
+         </div>
+         <div class="section2">
+             <h3 class="Recap">Récapitulatif</h3>
+             <BLOCKQUOTE><OL>
+                  <li>
+                  Hospitalisation de Jour prévue à l'adresse
+                  <input NAME="rep1" TYPE=text SIZE=12 MAXLENGTH=12/>
+                  au <input NAME="rep1" TYPE=text SIZE=12 MAXLENGTH=12/>le <input NAME="rep1" TYPE=text SIZE=12 MAXLENGTH=12/>
+                  </li>
+             </OL></BLOCKQUOTE>
+             <br>
+             <div ALIGN=right>
+                    <a href="#" class="myButton3">Envoyer Récapitulatif</a>
+             </div>
+         </div>
+    </div>
+    </div>
+</body>
+</html>
+    
