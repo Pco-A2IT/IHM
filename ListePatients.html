@@ -1,0 +1,87 @@
+<html>
+<head>
+   <link href="template1.css"type="text/css"rel="stylesheet"/>    <!-- BOOTSTRAP -->
+</head>
+<body>
+    <div class="gris">
+        <!--<div class="photo1" style=" height:550; padding-top:10px;boder-color:red; border-style:solid;">-->
+            <div  style=" height:620px; width:100px; padding-top:20px;">
+            <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px;  margin-left:auto; margin-right:auto; border-radius: 5px;">
+            <img src="testIcone.png" style="width:100%; height:100%;"/>
+            </div>
+            
+            <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px; margin-left:auto; margin-right:auto; border-radius: 5px;">
+
+            </div>
+            
+            <div id="menu" class="carreGris" style="height:70px; width:70px; background-color: gray; margin-bottom: 20px; margin-left:auto; margin-right:auto; border-radius: 5px;">
+            
+            </div>
+            
+        </div>
+    </div>
+    <div class="titre";   style="border-radius: 5px;">
+        <h1 class="titreGauche">Liste des patients</h1>
+        <h4 class="titreDroite"><input TYPE=button VALUE="Ajouter patient" ONCLICK="Ajouter patient()"/> </h4>
+        <h4 class="titreMilieu"><input TYPE=button VALUE="Recherche avancée" ONCLICK="Recherche avancée()"/> </h4>
+        <h4 class="titreMilieu2"><form method="post" action="traitement.php">
+        
+        <input type="text" placeholder="Rechercher .." size="30" maxlength="10" />
+        
+            </form>
+            </h4>
+    </div>
+    <div class="blanc">
+          <div class="section1">
+              <div class="div1">
+                  <h4>Résultats</h4>
+                  
+                  <div class="table1" ; style="padding-top:20px; width:1000px; margin-left:1px;">
+                  <table rules=none>
+                    <tr>
+                       <th width=200px>Fiche</th>
+                       <th width=200px>Nom </th>
+                       <th width=200px>Prénom </th>
+                       <th width=200px>Date de naissance </th>
+                       <th width=200px>Code postal </th>
+                       <th width=200px>Ville </th>
+                       <th width=200px>Téléphone </th>
+                       <th width=200px>Médecin traitant </th>
+                   </tr>
+
+                   <tr>
+                       <td><img src="images/patient.png" alt="Photo de patient" /></td>
+                       <td>Pasteur</td>
+                       <td>Vincent</td>
+                       <td>12/07/1990</td>
+                       <td>77700</td>
+                       <td>Carré</td>
+                       <td>0988834944</td>
+                       <td>DOCTEUR LAPINCE</td>
+                   </tr>
+                   <tr>
+                       <td><img src="images/patient.png" alt="Photo de patient" /></td>
+                       <td>Pasteur</td>
+                       <td>Vincent</td>
+                       <td>12/07/1990</td>
+                       <td>77700</td>
+                       <td>Carré</td>
+                       <td>0988834944</td>
+                       <td>DOCTEUR LAPINCE</td>
+                   </tr>
+                </table> 
+                  </div>
+                    </div>
+
+              <div class="div2">
+                 
+              </div>
+              <div class="div3">
+                  
+              </div>
+         </div>
+        
+    </div>
+
+</body>
+</html>
