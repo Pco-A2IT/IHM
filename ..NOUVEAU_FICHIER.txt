@@ -1,1 +1,1 @@
-Ceci est un nouveau fichier qui va être ajouté à GitHub
+Fichier test pour l'utilisation de GitHub : Vous pouvez essayer de le modifier
